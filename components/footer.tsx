@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="mb-10 px-4 text-center text-gray-500">
       <small className="mb-2 block text-xs">
-        &copy; © Ibrahim Abd El-Rahman. All rights reserved - 2024
+        &copy;  ibrahim abd el-rahman. all rights reserved - 2024
       </small>
       {/* <p className="text-xs">
         <span className="font-semibold">About this website:</span> built with
