@@ -1,15 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-    ],
-  },
   experimental: {
-    serverActions: true,
+    serverActions: {
+      allowedOrigins: ['my-proxy.com', '*.my-proxy.com'],
+      bodySizeLimit: '3mb',
+      serverActions: true,
+    },
   },
 };
 
