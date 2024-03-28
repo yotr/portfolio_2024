@@ -65,7 +65,7 @@ export const experiencesData = [
     description:
       "I worked as a front-end developer for 2 years in 1 job (Angular Front-End Developer). I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 - present",
   },
 ] as const;
 
